@@ -16,9 +16,15 @@
 	<html>
 	<body>
 		<div id='main' role='main'>
-			<h1>Mapa de Localização</h1>
-			<div id='map'></div>						
-			<div class='endereco'></div>
+			<header class="mb-6 text-center">
+				<h1 class="text-3xl font-bold text-blue-700">🌍 Mapa de Localização</h1>
+				<p class="text-gray-600 mt-2">Veja sua localização atual no mapa com alta precisão.</p>
+			</header>
+			<div id='map'></div>	
+			<section class="bg-white p-4 rounded shadow">
+				<h2 class="text-xl font-semibold mb-2">📍 Endereço Atual</h2>
+				<div class="endereco text-gray-800">Buscando localização...</div>
+			</section>					
 		</div>	
 		<script src="js/vendor/modernizr-3.7.1.min.js"></script>
 		<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
